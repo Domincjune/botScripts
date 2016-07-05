@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir -p projectTemplate/app/{core/services/rest,config,hello}
+mkdir -p projecttest/app/{core/services/rest,config,hello}
 
-basePath="projectTemplate/"
+basePath="projecttest/"
 
 array=(
         app/config/config.js
@@ -19,6 +19,7 @@ array=(
         .bowerrc
         .gitignore
       )
+
 for i in "${array[@]}"
 do
     printf ". "
